@@ -1,0 +1,38 @@
+# COUCHDB FILES
+couch*
+check-*
+
+# POSTMAN FILES
+tests/
+
+# LOGS
+logs/
+
+# ICONS
+icons/
+OnRails *.png
+
+# MISC FILES
+Dockerfile
+docker-compose.yml
+create-testdata.py
+
+# CODE FOLDERS
+src/cards
+src/data
+src/static
+src/templates
+src/trains
+
+# CODE FILES
+src/check_encryption.py
+src/get_train_data.py
+src/push_*
+src/db.sqlite3
+src/*_encr*
+src/encrypt*
+
+# VIRTUAL ENV
+.env
+env/
+src/onrails/.env
