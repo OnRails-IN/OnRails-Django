@@ -19,7 +19,12 @@ Optional fields are marked with *
 ```
 API: /user/signup/
 Method: POST
-Request Format: { Username: string, Password: string, Email*: email address, Display_Name*: string}
+Request Format: {
+	Username:		string,
+	Password:		string,
+	Email*:			email id,
+	Display_Name*:	string
+}
 ```
 **Login**
 ```
@@ -42,7 +47,13 @@ Request Format: { Username: string }
 **New Spotting**
 ```
 API: /spotting/new/
-Request Format: { Whos_Asking: string (login username), Train_Number: int, Loco_Number: int, Spotting_Time*: Unix timestamp, Spotting_Remarks*: string }
+Request Format: {
+	Whos_Asking:		string (login username),
+	Train_Number:		int,
+	Loco_Number:		int,
+	Spotting_Time*:		Unix timestamp,
+	Spotting_Remarks*:	string
+}
 ```
 **List spotting**
 ```
@@ -69,4 +80,4 @@ Method: GET
 Request Format: { Search_Term: string }
 ```
 ### Journeys
-### Mod
+### Method
