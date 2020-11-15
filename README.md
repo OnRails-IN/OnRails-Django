@@ -1,4 +1,3 @@
-
 OnRails Django
 =
 
@@ -35,18 +34,19 @@ Request Format: { Username: string, Password: string }
 **All Usernames**
 ```
 API: /user/all/
-Method: GET, POST
+Method: GET
 ```
 **User Achievements**
 ```
 API: /user/achievements/
-Method: GET, POST
+Method: GET
 Request Format: { Username: string }
 ```
 ### Spottings
 **New Spotting**
 ```
 API: /spotting/new/
+Method: POST
 Request Format: {
 	Whos_Asking:		string (login username),
 	Train_Number:		int,
@@ -80,4 +80,4 @@ Method: GET
 Request Format: { Search_Term: string }
 ```
 ### Journeys
-### Method
+### Mod
